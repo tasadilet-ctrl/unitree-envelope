@@ -1,0 +1,7 @@
+# The robot models, configs and pre-trained policies come from a pinned
+# unitree_rl_gym checkout (scripts/setup.sh). Isaac Gym is NOT needed: nothing
+# here trains, and the MuJoCo deployment path is pure CPU.
+mujoco>=3.1
+torch>=2.1
+numpy>=1.24
+pyyaml>=6.0
